@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
-  "author": "",
+  "author": "timmy",
   "license": "ISC",
   "dependencies": {
     "connect-mongo": "^3.2.0",
