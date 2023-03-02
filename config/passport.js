@@ -6,9 +6,9 @@ const User = require('../models/User')
 //google strategy
 module.exports = function(passport) {
     passport.use(new GoogleStrategy({
-        clientID: '376283452364-efdlk73csd7n1852re0maefb0rhte8bc.apps.googleusercontent.com',
-        clientSecret: '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',
-        callbackURL: '/auth/google/callback'
+        clientID: '724869068922-g86gn6c3l9tvgfdpf14qf5junmatbu1m.apps.googleusercontent.com',
+        clientSecret: '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',
+        callbackURL: 'http://writeestoriess.onrender.com/auth/google/callback'
     },    
     async (accessToken, refreshToken, profile, done) => {
         const newUser = {
